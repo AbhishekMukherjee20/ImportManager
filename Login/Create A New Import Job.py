@@ -12,7 +12,7 @@ driver.get("https://bse-uk.tpointcloudplatform.com/BSETest/Login/?returnUrl=%2FB
 driver.maximize_window()
 driver.find_element(By.ID, "UserName").click()
 driver.find_element(By.ID, "UserName").click()
-driver.find_element(By.ID, "UserName").send_keys("Pooja")
+driver.find_element(By.ID, "UserName").send_keys("Sonali")
 driver.find_element(By.ID, "Password").click()
 driver.find_element(By.ID, "Password").send_keys("pass123#")
 driver.find_element(By.CSS_SELECTOR, ".btn").click()
